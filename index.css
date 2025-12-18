@@ -1,11 +1,6 @@
 /*! tailwindcss v4.1.3 | MIT License | https://tailwindcss.com */
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 
-body {
-  font-family: 'Jua', sans-serif;
-}
-
-
 @layer properties {
   @supports (((-webkit-hyphens: none)) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color: rgb(from red r g b)))) {
     *, :before, :after, ::backdrop {
@@ -69,8 +64,6 @@ body {
     }
   }
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 
 @layer theme {
   :root, :host {
