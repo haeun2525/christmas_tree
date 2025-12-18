@@ -1,5 +1,5 @@
 import { X } from 'lucide-react';
-import { motion } from 'motion/react';
+import { motion } from "framer-motion";
 import { Letter } from '../App';
 
 type LetterViewProps = {
