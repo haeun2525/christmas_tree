@@ -6,7 +6,7 @@ type AdminLoginProps = {
   onBack: () => void;
 };
 
-const ADMIN_PASSWORD = '9999'; // 관리자 비밀번호
+const ADMIN_PASSWORD = '0101'; // 관리자 비밀번호
 
 export function AdminLogin({ onLogin, onBack }: AdminLoginProps) {
   const [password, setPassword] = useState(['', '', '', '']);
